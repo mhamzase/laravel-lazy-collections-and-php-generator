@@ -57,7 +57,7 @@ Route::get('/generator', function () {
         }
     }
 
-    foreach (UnHappyFunction(100000000) as $number) {
+    foreach (HappyFunction(100000000) as $number) {
         if ($number % 1000 == 0) {
             dump('Hello');
         }
